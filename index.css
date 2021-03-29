@@ -227,6 +227,7 @@ a:hover{
 }
 .about-top p{
   font-size: 15px;
+  line-height: 1.5;
 }
 #about {
   display: flex;
@@ -257,7 +258,7 @@ a:hover{
   border-radius: 5%;
 }
 #about p{
-  font-family:'Special Elite',cursive;
+  font-family: 'Open Sans', sans-serif;
   font-size: 19px;
 }
 
@@ -267,6 +268,7 @@ a:hover{
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
+  line-height: 1.5;
 }
 
 #projects h1 {
@@ -386,7 +388,7 @@ footer .social-item{
     display: none;
   }
   header nav ul{
-    position: initial;
+    position: static;
     display: block;
     height: auto;
     width: fit-content;
