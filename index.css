@@ -41,17 +41,39 @@ html{
   text-align: center;
   font-size: 23px;
 }
-#about .cta{
-  display: flex;
-  border: 2px solid black;
-  border-style: outset;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin: 15px;
-  line-height: 36px;
-  width: 180px;
-  height: 55px;
+
+.button1 {
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   height: 14px;
+   line-height: 1px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   width: 189px;
+   font-size: 29px;
+   font-weight: 500;
+   padding: 20px;
+   background-color: #0A0A0A;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.button1:hover {
+   border: solid #000000 1px;
+   background: #FFFFFF;
+   background-image: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -webkit-gradient(to bottom, #FFFFFF, #FFFFFF);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   text-decoration: none;
+   color:black;
 }
 header{
   font-size: 1px;
@@ -62,7 +84,6 @@ header{
   z-index: 1000;
   font-weight: 500;
   font-family: sans-serif;
-
 }
 header h1{
   position: absolute;
@@ -179,22 +200,6 @@ font-family: 'Istok Web', sans-serif;
 #contact a{
   color:rgb(9, 173, 88);
 }
-
-#hero .cta{
-
-  display: inline-block;
-  height: 60px;
-  width: 65%;
-  padding: 10px 30px;
-  letter-spacing: .4rem;
-  border: 3px solid black;
-  margin: 5px;
-  line-height: normal;
-  text-align: center;
-  position: relative;
-  margin-top: 10px;
-  z-index: 1;
-}
 a{
   color:white;
   font-size: 17px;
@@ -207,12 +212,6 @@ a{
 a:hover{
   color: rgb(9, 173, 88);
 }
-.cta{
-  animation: hel 2s linear;
-  animation-duration: infinite;
-  animation-iteration-count: infinite;
-}
-
 .about-top h1{
   color: black;
   text-align: center;
@@ -304,6 +303,10 @@ a:hover{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+#projects p {
+  line-height: 1.5;
+  font-size: 17px;
 }
 #projects a{
   color: rgb(91, 97, 94);
